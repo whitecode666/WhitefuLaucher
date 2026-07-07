@@ -1,54 +1,138 @@
-# [芙芙启动器](https://github.com/whitecode666/FufuLauncher)
+# [FufuLauncher (芙芙启动器)](https://github.com/whitecode666/FufuLauncher)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
+![.NET](https://img.shields.io/badge/.NET-8.0-blue)
+![WinUI](https://img.shields.io/badge/UI-WinUI%203-8A2BE2)
 
-### 一个原神的第三方启动工具，支持游戏注入、自动签到和一些实用小功能。
+> Trình khởi động Genshin Impact bên thứ ba được xây dựng bằng WinUI 3, hỗ trợ injection, điểm danh tự động và nhiều tính năng tiện ích.
 
-#### [GitHub 仓库](https://github.com/whitecode666/FufuLauncher)
+[中文](./README.md) | [English](./README-en.md)
 
-#### [English](./README-en.md)
+---
 
-### 提出问题前，请检查你是否更新到了最新版本。以及提问请加上标签！
+## 📸 Ảnh chụp màn hình
 
-## 主要功能
+> *(Thêm ảnh chụp ứng dụng tại đây)*
 
-* **账号管理**：多账号快速切换，不用重复输入密码
-* **自动签到**：每天一键完成米游社签到
-* **游戏管理**：自动选择游戏路径，实时更新版本公告
-* **实用工具**：内置养成计算器、键盘连点器
-* **启动参数**：自定义分辨率、窗口模式等设置
-* **注入**：辅助体验更好的游戏内容
+---
 
-## 怎么用
+## ✨ Tính năng
 
-* **第一次打开**会显示用户协议，同意后才能用，请仔细阅读它！
-* 去 "**设置**" 页面选一下游戏安装路径，**最好同意自动识别的路径**
-* 在 "**账号**" 页面登录米游社账号，回到主页就可以用签到了
-* 主界面点 “**点击启动游戏**” 就能启动游戏了
+### 🔐 Quản lý Tài khoản
+- Chuyển đổi nhanh giữa nhiều tài khoản, không cần nhập lại mật khẩu
+- Mã hóa lưu trữ cục bộ, bảo vệ thông tin tài khoản
+- Hỗ trợ đăng nhập QR Code MiHoYo
 
-## 注意事项
+### 📅 Điểm danh tự động
+- Điểm danh MiHoYo/HoYoLab hàng ngày chỉ một cú nhấp chuột
+- Hỗ trợ điểm danh Cloud Game
+- Tự động hoàn thành tác vụ cộng đồng (like, đọc, chia sẻ)
 
-* 切换账号需要**管理员权限**
-* 游戏路径**尽量别用管理员模式选**，选完再管理员运行
-* 注入功能需要以**管理员身份运行程序**
-* 自定义背景支持图片和视频文件，**动态视频背景不太稳定，图片正常**
+### 🎮 Quản lý Game
+- Tự động phát hiện đường dẫn cài đặt game
+- Cập nhật thông báo phiên bản theo thời gian thực
+- Tải trước tài nguyên game và xác minh tính toàn vẹn
+- Chuyển đổi máy chủ (Chính thức/Bilibili/Quốc tế)
 
-## 说明
+### ⚡ Công cụ tiện ích
+- **Máy tính nuôi dưỡng**: Tính toán tài nguyên cần thiết cho nhân vật và vũ khí
+- **Auto Clicker**: Tự động hóa thao tác bàn phím/chuột
+- **Giám sát FPS**: Hiển thị FPS trong game theo thời gian thực
+- **Chụp màn hình**: Chụp ảnh màn hình game chỉ một cú nhấp chuột
+- **Lịch sử Cầu nguyện**: Xem và phân tích dữ liệu gacha
+- **Theo dõi Thành tựu**: Theo dõi tiến độ thành tựu
 
-* 请在使用项目前安装 **.NET 8.0** 或以上任意版本和 **Webview2** 运行时
-* 本项目仅供学习交流使用，请支持官方正版游戏。
+### 🚀 Tham số khởi động
+- Tùy chỉnh độ phân giải và chế độ cửa sổ
+- Preset tham số khởi động tùy chỉnh
+- Hỗ trợ nhiều màn hình
 
-## 赞助商
+### 🔧 Injection
+- Hỗ trợ DLL injection
+- Hệ thống quản lý preset
+- Hỗ trợ plugin mở rộng
 
-### [<img src="https://avatars.githubusercontent.com/u/34448643" alt="SignPath" width="48" /> 代码签名由 SignPath 提供](https://signpath.org)
+### 🎨 Tùy chỉnh giao diện
+- Nền tùy chỉnh (hình ảnh/video/trình chiếu)
+- Màu chủ đề tùy chỉnh
+- Hiệu ứng Acrylic/Mica
+- Điều chỉnh độ trong suốt
 
-免费代码签名由 [SignPath.io](https://about.signpath.io) 提供，证书由 [SignPath Foundation](https://signpath.org) 提供。
+---
 
-## 投稿者与审稿人
+## 📥 Cài đặt & Sử dụng
 
-<a href="https://github.com/whitecode666/FufuLauncher/graphs/contributors"><img src="https://contrib.rocks/image?repo=whitecode666/FufuLauncher" /></a>
+### Yêu cầu hệ thống
+- **Hệ điều hành**: Windows 10/11 (64-bit)
+- **Runtime**: [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) trở lên
+- **Runtime**: [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/) (thường được cài sẵn trên Windows 10+)
+- **Runtime**: Visual C++ Redistributable v14
 
-## Star History
+### Bắt đầu nhanh
+
+1. **Lần chạy đầu**: Thỏa thuận người dùng sẽ hiển thị, vui lòng đọc và đồng ý để tiếp tục
+2. **Chọn đường dẫn game**: Vào trang "Cài đặt" để chọn thư mục cài đặt game (khuyên dùng tự động phát hiện)
+3. **Đăng nhập**: Đăng nhập tài khoản MiHoYo/HoYoLab tại trang "Tài khoản" để sử dụng tính năng điểm danh
+4. **Khởi động game**: Nhấn "Khởi động Game" trên trang chính
+
+> ⚠️ **Lưu ý quan trọng**:
+> - Chuyển đổi tài khoản cần **quyền Quản trị viên**
+> - Nên chọn đường dẫn game trước, sau đó chạy chương trình với quyền Quản trị viên
+> - Tính năng injection yêu cầu **quyền Quản trị viên**
+> - Nền video động có thể không ổn định, khuyên dùng hình ảnh tĩnh
+
+---
+
+## 🏗️ Công nghệ sử dụng
+
+- **UI Framework**: WinUI 3 (Windows App SDK)
+- **Ngôn ngữ**: C# (.NET 8.0)
+- **Kiến trúc**: MVVM (CommunityToolkit.Mvvm)
+- **Cơ sở dữ liệu**: SQLite (lưu trữ cài đặt cục bộ)
+- **Injection**: DLL injection gốc
+- **Backend**: Windows Native APIs + HTTP APIs
+
+---
+
+## 🤝 Đóng góp
+
+Mọi đóng góp dưới dạng Issue và Pull Request đều được hoan nghênh! Vui lòng làm theo các bước:
+
+1. Fork repository
+2. Tạo nhánh tính năng (`git checkout -b feature/TinhNangMoi`)
+3. Commit thay đổi (`git commit -m 'Thêm tính năng mới'`)
+4. Đẩy lên nhánh (`git push origin feature/TinhNangMoi`)
+5. Mở Pull Request
+
+### Báo cáo vấn đề
+- [Báo cáo lỗi](https://github.com/whitecode666/FufuLauncher/issues/new?template=bug_report.yml)
+- [Yêu cầu tính năng](https://github.com/whitecode666/FufuLauncher/issues/new?template=feature_request.yml)
+
+---
+
+## 📄 Giấy phép
+
+Dự án này được cấp phép theo [MIT License](../LICENSE).
+
+Bản quyền © 2026 whitecode666
+
+---
+
+## 🌟 Ủng hộ dự án
+
+Nếu bạn thấy dự án này hữu ích, hãy cho nó một ⭐ trên GitHub nhé!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/FufuLauncher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/FufuLauncher&type=date&legend=top-left)
+
+---
+
+## 📞 Liên hệ
+
+- [GitHub Issues](https://github.com/whitecode666/FufuLauncher/issues)
+- [Telegram](https://github.com/whitecode666/FufuLauncher)
+
+---
+
+*Phần mềm này là công cụ bên thứ ba được phát triển độc lập và không có liên kết với miHoYo hoặc các công ty con của họ.*
+*Vui lòng ủng hộ phiên bản game chính thức.*

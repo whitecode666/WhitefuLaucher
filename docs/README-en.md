@@ -2,45 +2,137 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
+![.NET](https://img.shields.io/badge/.NET-8.0-blue)
+![WinUI](https://img.shields.io/badge/UI-WinUI%203-8A2BE2)
 
-### A third-party launcher for Genshin Impact, supporting game injection, auto check-in, and various utility features.
+> A third-party Genshin Impact launcher built with WinUI 3, featuring game injection, auto check-in, and various utility tools.
 
-#### [GitHub Repository](https://github.com/whitecode666/FufuLauncher)
+[中文](./README.md) | [Tiếng Việt](./README-vi.md)
 
-## Main Features
+---
 
-* **Account Management**: Quick switching between multiple accounts without repeated password entry.
-* **Auto Check-in**: Complete Miyoushe daily check-ins with one click.
-* **Game Management**: Automatic game path detection and real-time version announcement updates.
-* **Utilities**: Built-in cultivation calculator and keyboard auto-clicker.
-* **Launch Parameters**: Customize resolution, windowed mode, and other settings.
-* **Injection**: Enhance the gaming experience with specialized content.
+## 📸 Screenshots
 
-## How to Use
+> *(Add application screenshots here)*
 
-* **First Launch**: A User Agreement will be displayed. You must read and agree to it before use.
-* Go to the "**Settings**" page to select the game installation path. **It is highly recommended to accept the automatically identified path.**
-* Log in to your Miyoushe account on the "**Account**" page, then you can use the check-in feature on the home page.
-* Click "**Launch Game**" on the main interface to start the game.
+---
 
-## Important Notes
+## ✨ Features
 
-* Switching accounts requires **Administrator privileges**.
-* **Avoid using Administrator mode while selecting the game path**; run the program as Administrator only after the path is set.
-* The injection feature requires the program to be **Run as Administrator**.
-* Custom backgrounds support images and video files. **Live video backgrounds may be unstable; images work normally.**
+### 🔐 Account Management
+- Quick switching between multiple accounts without re-entering passwords
+- Local encrypted storage for account security
+- MiHoYo QR code login support
 
-## Instructions
+### 📅 Auto Check-in
+- One-click daily MiHoYo/HoYoLab check-in
+- Cloud game check-in support
+- Auto community tasks (likes, reads, shares)
 
-* Please ensure **.NET 8.0** or above and the **WebView2** runtime are installed before using this project.
-* This project is for learning and exchange purposes only. Please support the official game.
+### 🎮 Game Management
+- Automatic game path detection
+- Real-time version update announcements
+- Game resource pre-download and integrity verification
+- Server switching (Official/Bilibili/Global)
+
+### ⚡ Utilities
+- **Cultivation Calculator**: Calculate resources needed for characters and weapons
+- **Auto Clicker**: Automated keyboard/mouse click operations
+- **FPS Monitor**: Real-time in-game frame rate display
+- **Screenshot Tool**: One-click game capture
+- **Wish History**: View and analyze gacha data
+- **Achievement Tracker**: Track achievement progress
+
+### 🚀 Launch Parameters
+- Custom resolution and window mode settings
+- Custom launch parameter presets
+- Multi-monitor support
+
+### 🔧 Injection
+- DLL injection support
+- Preset management system
+- Plugin extension support
+
+### 🎨 Customization
+- Custom backgrounds (image/video/slideshow)
+- Custom theme colors
+- Acrylic/Mica backdrop effects
+- Adjustable transparency
+
+---
+
+## 📥 Installation & Usage
+
+### System Requirements
+- **OS**: Windows 10/11 (64-bit)
+- **Runtime**: [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- **Runtime**: [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/) (usually pre-installed on Windows 10+)
+- **Runtime**: Visual C++ Redistributable v14
+
+### Quick Start
+
+1. **First Launch**: A user agreement will be displayed. Please read and accept it to continue.
+2. **Set Game Path**: Go to "Settings" page and select the game installation directory (auto-detection is recommended).
+3. **Login**: Log in with your MiHoYo/HoYoLab account on the "Account" page to use check-in features.
+4. **Launch Game**: Click "Launch Game" on the main page.
+
+> ⚠️ **Important Notes**:
+> - Account switching requires **Administrator privileges**
+> - It's recommended to select the game path first, then run the program as Administrator
+> - Injection features require **Administrator privileges**
+> - Live video backgrounds may be unstable; static images are recommended
+
+---
+
+## 🏗️ Tech Stack
+
+- **UI Framework**: WinUI 3 (Windows App SDK)
+- **Language**: C# (.NET 8.0)
+- **Architecture**: MVVM (CommunityToolkit.Mvvm)
+- **Database**: SQLite (local settings storage)
+- **Injection**: Native DLL injection
+- **Backend**: Windows Native APIs + HTTP APIs
+
+---
+
+## 🤝 Contributing
+
+Issues and Pull Requests are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Report Issues
+- [Report Bug](https://github.com/whitecode666/FufuLauncher/issues/new?template=bug_report.yml)
+- [Feature Request](https://github.com/whitecode666/FufuLauncher/issues/new?template=feature_request.yml)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](../LICENSE).
+
+Copyright © 2026 whitecode666
+
+---
+
+## 🌟 Support
+
+If you find this project helpful, please consider giving it a ⭐ on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/FufuLauncher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/FufuLauncher&type=date&legend=top-left)
 
-### [<img src="https://avatars.githubusercontent.com/u/34448643" alt="SignPath" width="48" /> Code signing provided by SignPath](https://signpath.org)
+---
 
-Free code signing is provided by [SignPath.io](https://about.signpath.io), with certificates provided by [SignPath Foundation](https://signpath.org).
+## 📞 Contact
 
-**Contributors and Reviewers**
+- [GitHub Issues](https://github.com/whitecode666/FufuLauncher/issues)
+- [Telegram](https://github.com/whitecode666/FufuLauncher)
 
-<a href="https://github.com/whitecode666/FufuLauncher/graphs/contributors"><img src="https://contrib.rocks/image?repo=whitecode666/FufuLauncher" /></a>
+---
+
+*This software is an independently developed third-party tool and is not affiliated with miHoYo or its subsidiaries.*
+*Please support the official game.*
