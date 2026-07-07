@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Bắt Đầu",
+    "items": [
+      {
+        "title": "Giới Thiệu Dự Án",
+        "file": "intro.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Cài Đặt Môi Trường",
+        "file": "env-setup.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Câu Hỏi Thường Gặp (FAQ)",
+        "file": "faq.md",
+        "author": "FufuLauncher Team"
+      }
+    ]
+  },
+  {
+    "category": "Tính Năng",
+    "items": [
+      {
+        "title": "Cài Đặt Trình Khởi Động",
+        "file": "settings.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Khởi Động Game",
+        "file": "game-manage.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Tài Khoản MiHoYo",
+        "file": "mihoyo.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Plugin",
+        "file": "mods.md",
+        "author": "FufuLauncher Team"
+      }
+    ]
+  },
+  {
+    "category": "Hướng Dẫn Sử Dụng",
+    "items": [
+      {
+        "title": "Hướng Dẫn Bật Hiển Thị FPS",
+        "file": "fps.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Tùy Chỉnh Nền",
+        "file": "bg.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Cài Đặt Game",
+        "file": "gamesetting.md",
+        "author": "FufuLauncher Team"
+      }
+    ]
+  },
+  {
+    "category": "Khác",
+    "items": [
+      {
+        "title": "Discord",
+        "file": "discord.md",
+        "author": "FufuLauncher Team"
+      },
+      {
+        "title": "Thông Báo Bảo Trì",
+        "file": "lts.md",
+        "author": "FufuLauncher Team"
+      }
+    ]
+  }
+]
