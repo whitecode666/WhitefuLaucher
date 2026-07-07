@@ -11,12 +11,6 @@
 
 ---
 
-## 📸 Ảnh chụp màn hình
-
-> *(Thêm ảnh chụp ứng dụng tại đây)*
-
----
-
 ## ✨ Tính năng
 
 ### 🔐 Quản lý Tài khoản
