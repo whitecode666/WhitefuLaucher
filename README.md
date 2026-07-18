@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/whitecode666/WhitefuLaucher/main/FufuLauncher/Assets/icon.png](https://github.com/whitecode666/WhitefuLaucher/blob/main/Assets/icon.png?raw=true)" alt="WhitefuLaucher Logo" width="128" />
+  <img src="https://raw.githubusercontent.com/whitecode666/WhitefuLaucher/refs/heads/main/Assets/icon.png" alt="WhitefuLaucher Logo" width="128" />
   <h1><a href="https://github.com/whitecode666/WhitefuLaucher">WhitefuLaucher</a></h1>
 </div>
 
