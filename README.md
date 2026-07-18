@@ -1,92 +1,61 @@
-﻿# WhitefuLaucher
+<div align="center">
+  <img src="https://raw.githubusercontent.com/whitecode666/WhitefuLaucher/main/FufuLauncher/Assets/icon.png" alt="WhitefuLaucher Logo" width="128" />
+  <h1><a href="https://github.com/whitecode666/WhitefuLaucher">WhitefuLaucher</a></h1>
+</div>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
-![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![WinUI](https://img.shields.io/badge/UI-WinUI%203-8A2BE2)
+![Stars](https://img.shields.io/github/stars/whitecode666/WhitefuLaucher?style=flat&color=yellow)
+![Downloads](https://img.shields.io/github/downloads/whitecode666/WhitefuLaucher/total?style=flat&color=blue)
 
-> TrĂ¬nh khá»Ÿi cháº¡y Genshin Impact bĂªn thá»© ba, xĂ¢y dá»±ng trĂªn WinUI 3. Quáº£n lĂ½ Ä‘a tĂ i khoáº£n, má»Ÿ khĂ³a FPS, phĂ¢n tĂ­ch cáº§u nguyá»‡n, há»‡ sinh thĂ¡i plugin. Ná»n táº£ng quáº£n lĂ½ trĂ² chÆ¡i táº¥t cáº£ trong má»™t.
+### Trình khởi chạy bên thứ ba cho Genshin Impact, hỗ trợ injection, điểm danh tự động và nhiều tiện ích.
 
-[Trang chá»§](https://whitefulaucher.gamer.free) | [TĂ i liá»‡u](https://whitefulaucher.gamer.free/docs.html) | [Discord](https://discord.gg/bkkAU6bs4n)
+**Nếu bạn thấy dự án này hữu ích, hãy Star để ủng hộ chúng tôi.**
 
----
+#### [Trang chủ](https://whitefulaucher.gamer.free)
 
-## âœ¨ TĂ­nh nÄƒng
+#### [Tài liệu](https://whitefulaucher.gamer.free/docs.html)
 
-### Quáº£n lĂ½ TĂ i khoáº£n
-- Chuyá»ƒn Ä‘á»•i nhanh giá»¯a nhiá»u tĂ i khoáº£n, khĂ´ng cáº§n nháº­p láº¡i máº­t kháº©u
-- MĂ£ hĂ³a lÆ°u trá»¯ cá»¥c bá»™, báº£o vá»‡ thĂ´ng tin tĂ i khoáº£n
-- Äiá»ƒm danh tá»± Ä‘á»™ng hĂ ng ngĂ y trĂªn MiHoYo/HoYoLab
+#### [Discord](https://discord.gg/bkkAU6bs4n)
 
-### Giáº£i phĂ³ng Hiá»‡u suáº¥t
-- Má»Ÿ khĂ³a FPS khĂ´ng giá»›i háº¡n
-- Paimon Ä‘á»“ng hĂ nh / XĂ³a thanh táº£i
-- Chuyá»ƒn Ä‘á»•i tay cáº§m vĂ  HDR
+#### [English](./README-en.md) | [中文](./README-cn.md)
 
-### PhĂ¢n tĂ­ch Cáº§u nguyá»‡n
-- Theo dĂµi tiáº¿n Ä‘á»™ pity thá»i gian thá»±c
-- Xuáº¥t toĂ n bá»™ lá»‹ch sá»­ quay
-- So sĂ¡nh dá»¯ liá»‡u Ä‘a tĂ i khoáº£n
+Trước khi đặt câu hỏi, vui lòng kiểm tra bạn đã cập nhật phiên bản mới nhất chưa. Hãy gắn tag khi đặt câu hỏi!
 
-### Há»‡ sinh thĂ¡i Plugin
-- Cá»­a hĂ ng plugin tĂ­ch há»£p sáºµn
-- Triá»ƒn khai má»™t cĂº nháº¥p, tá»± Ä‘á»™ng cáº­p nháº­t
-- TĂ¹y chá»‰nh hĂ¬nh ná»n vĂ  tham sá»‘ khá»Ÿi cháº¡y
+## Tính năng chính
 
-### TĂ¹y chá»‰nh Giao diá»‡n
-- Ná»n tĂ¹y chá»‰nh (hĂ¬nh áº£nh/video/trĂ¬nh chiáº¿u)
-- MĂ u chá»§ Ä‘á» tĂ¹y chá»‰nh
-- Hiá»‡u á»©ng Acrylic/Mica
+* **Quản lý tài khoản**: Chuyển đổi nhanh giữa nhiều tài khoản mà không cần nhập lại mật khẩu
+* **Điểm danh tự động**: Hoàn thành điểm danh MiHoYo hàng ngày chỉ với một cú nhấp
+* **Quản lý game**: Tự động phát hiện đường dẫn game, cập nhật thông báo phiên bản theo thời gian thực
+* **Tiện ích**: Máy tính nuôi dưỡng nhân vật, tự động nhấp chuột
+* **Tham số khởi động**: Tùy chỉnh độ phân giải, chế độ cửa sổ và nhiều cài đặt khác
+* **Injection**: Hỗ trợ trải nghiệm nội dung game tốt hơn
 
----
+## Cách sử dụng
 
-## đŸ“¥ CĂ i Ä‘áº·t
+* **Lần đầu mở ứng dụng**, thỏa thuận người dùng sẽ hiển thị. Bạn phải đồng ý trước khi sử dụng; vui lòng đọc kỹ!
+* Vào trang "**Cài đặt**" để chọn đường dẫn cài đặt game, **tốt nhất nên chọn đường dẫn tự động phát hiện**
+* Đăng nhập tài khoản MiHoYo tại trang "**Tài khoản**". Quay lại trang chủ để sử dụng tính năng điểm danh
+* Nhấn "**Nhấn để khởi động game**" trên giao diện chính để khởi động game
 
-### YĂªu cáº§u há»‡ thá»‘ng
-- **Há»‡ Ä‘iá»u hĂ nh**: Windows 10/11 (64-bit)
-- **Runtime**: [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
-- **Runtime**: [Visual C++ Redistributable v14](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+## Lưu ý
 
-### Báº¯t Ä‘áº§u nhanh
-1. Táº£i báº£n cĂ i Ä‘áº·t tá»« [Releases](https://github.com/whitecode666/WhitefuLaucher/releases)
-2. Cháº¡y `WhitefuLaucher_Setup_v1.4.2.3.exe`
-3. ÄÄƒng nháº­p báº±ng Discord khi Ä‘Æ°á»£c yĂªu cáº§u
-4. Chá»n Ä‘Æ°á»ng dáº«n game vĂ  báº¯t Ä‘áº§u sá»­ dá»¥ng
+* Chuyển đổi tài khoản cần **quyền Quản trị viên**
+* **Nên chọn đường dẫn game trước khi chạy chế độ quản trị viên**; chọn xong rồi mới chạy quyền admin
+* Tính năng injection cần **chạy chương trình với quyền Quản trị viên**
+* Nền tùy chỉnh hỗ trợ cả file ảnh và video; **nền video động không ổn định lắm, ảnh tĩnh hoạt động bình thường**
 
----
+## Thông báo
 
-## đŸ—ï¸ CĂ´ng nghá»‡
+* Vui lòng cài đặt **.NET 8.0** trở lên và runtime **WebView2** trước khi sử dụng
+* Dự án này chỉ để học tập và giao lưu, vui lòng ủng hộ bản game chính thức.
 
-- **UI**: WinUI 3 (Windows App SDK)
-- **NgĂ´n ngá»¯**: C# (.NET 8.0)
-- **Kiáº¿n trĂºc**: MVVM (CommunityToolkit.Mvvm)
-- **CÆ¡ sá»Ÿ dá»¯ liá»‡u**: SQLite + MySQL (Plugin Store)
-- **Injection**: DLL injection
-- **Website**: Vue 3 + Vite + Tailwind CSS
+## Nhà tài trợ
 
----
+### [<img src="https://avatars.githubusercontent.com/u/34448643" alt="SignPath" width="48" /> Ký mã nguồn miễn phí bởi SignPath](https://signpath.org)
 
-## đŸ¤ ÄĂ³ng gĂ³p
+Ký mã nguồn miễn phí được cung cấp bởi [SignPath.io](https://about.signpath.io), chứng chỉ bởi [SignPath Foundation](https://signpath.org).
 
-Má»i Ä‘Ă³ng gĂ³p Ä‘á»u Ä‘Æ°á»£c hoan nghĂªnh!
+## Người đóng góp
 
-1. Fork repository
-2. Táº¡o nhĂ¡nh (`git checkout -b feature/TinhNangMoi`)
-3. Commit (`git commit -m 'ThĂªm tĂ­nh nÄƒng má»›i'`)
-4. Push (`git push origin feature/TinhNangMoi`)
-5. Má»Ÿ Pull Request
-
-- [BĂ¡o cĂ¡o lá»—i](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=bug_report.yml)
-- [YĂªu cáº§u tĂ­nh nÄƒng](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=feature_request.yml)
-
----
-
-## đŸ“„ Giáº¥y phĂ©p
-
-Dá»± Ă¡n Ä‘Æ°á»£c cáº¥p phĂ©p theo [MIT License](../LICENSE).
-
-Báº£n quyá»n Â© 2026 WhitefuLaucher Project
-
----
-
-*ÄĂ¢y lĂ  dá»± Ă¡n cá»™ng Ä‘á»“ng bĂªn thá»© ba, khĂ´ng liĂªn quan Ä‘áº¿n miHoYo hoáº·c HoYoverse.*
+<a href="https://github.com/whitecode666/WhitefuLaucher/graphs/contributors"><img src="https://contrib.rocks/image?repo=whitecode666/WhitefuLaucher" /></a>

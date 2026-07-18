@@ -1,138 +1,61 @@
-﻿# [WhitefuLaucher](https://github.com/whitecode666/WhitefuLaucher)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/whitecode666/WhitefuLaucher/main/FufuLauncher/Assets/icon.png" alt="WhitefuLaucher Logo" width="128" />
+  <h1><a href="https://github.com/whitecode666/WhitefuLaucher">WhitefuLaucher</a></h1>
+</div>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
-![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![WinUI](https://img.shields.io/badge/UI-WinUI%203-8A2BE2)
+![Stars](https://img.shields.io/github/stars/whitecode666/WhitefuLaucher?style=flat&color=yellow)
+![Downloads](https://img.shields.io/github/downloads/whitecode666/WhitefuLaucher/total?style=flat&color=blue)
 
-> A third-party Genshin Impact launcher built with WinUI 3, featuring game injection, auto check-in, and various utility tools.
+### A third-party launcher for Genshin Impact, supporting game injection, auto check-in, and practical utility features.
 
-[ä¸­æ–‡](./README.md) | [Tiáº¿ng Viá»‡t](./README-vi.md)
+**If you find this project helpful, please consider giving it a Star to support the development.**
 
----
+#### [Official Website](https://whitefulaucher.gamer.free)
 
-## đŸ“¸ Screenshots
+#### [Documentation](https://whitefulaucher.gamer.free/docs.html)
 
-> *(Add application screenshots here)*
+#### [Discord](https://discord.gg/bkkAU6bs4n)
 
----
+#### [Tiếng Việt](./README.md) | [中文](./README-cn.md)
 
-## âœ¨ Features
+Before asking a question, please check if you have updated to the latest version. And please add tags to your questions!
 
-### đŸ” Account Management
-- Quick switching between multiple accounts without re-entering passwords
-- Local encrypted storage for account security
-- MiHoYo QR code login support
+## Main Features
 
-### đŸ“… Auto Check-in
-- One-click daily MiHoYo/HoYoLab check-in
-- Cloud game check-in support
-- Auto community tasks (likes, reads, shares)
+* **Account Management**: Quick switching between multiple accounts without re-entering passwords
+* **Auto Check-in**: One-click completion of daily Miyoushe check-ins
+* **Game Management**: Automatically select game paths and update version announcements in real-time
+* **Utilities**: Built-in character progression calculator and keyboard auto-clicker
+* **Launch Parameters**: Custom resolution, window mode, and other settings
+* **Injection**: Assists in experiencing better game content
 
-### đŸ® Game Management
-- Automatic game path detection
-- Real-time version update announcements
-- Game resource pre-download and integrity verification
-- Server switching (Official/Bilibili/Global)
+## How to Use
 
-### â¡ Utilities
-- **Cultivation Calculator**: Calculate resources needed for characters and weapons
-- **Auto Clicker**: Automated keyboard/mouse click operations
-- **FPS Monitor**: Real-time in-game frame rate display
-- **Screenshot Tool**: One-click game capture
-- **Wish History**: View and analyze gacha data
-- **Achievement Tracker**: Track achievement progress
+* **Upon opening for the first time**, a user agreement will be displayed. You must agree to it before use; please read it carefully!
+* Go to the "**Settings**" page to select the game installation path, **it is best to agree with the auto-detected path**
+* Log in to your Miyoushe account on the "**Account**" page. Return to the home page to use the check-in feature
+* Click "**Click to start game**" on the main interface to launch the game
 
-### đŸ€ Launch Parameters
-- Custom resolution and window mode settings
-- Custom launch parameter presets
-- Multi-monitor support
+## Notes
 
-### đŸ”§ Injection
-- DLL injection support
-- Preset management system
-- Plugin extension support
+* Switching accounts requires **administrator privileges**
+* **Try not to select the game path in administrator mode**; select it first, then run as administrator
+* The injection feature requires **running the program as an administrator**
+* Custom backgrounds support both image and video files; **dynamic video backgrounds are relatively unstable, while images work normally**
 
-### đŸ¨ Customization
-- Custom backgrounds (image/video/slideshow)
-- Custom theme colors
-- Acrylic/Mica backdrop effects
-- Adjustable transparency
+## Notice
 
----
+* Please install any version of **.NET 8.0** or above and the **Webview2** runtime before using this project
+* This project is for learning and communication purposes only; please support the official genuine game.
 
-## đŸ“¥ Installation & Usage
+## Sponsors
 
-### System Requirements
-- **OS**: Windows 10/11 (64-bit)
-- **Runtime**: [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
-- **Runtime**: [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/) (usually pre-installed on Windows 10+)
-- **Runtime**: Visual C++ Redistributable v14
+### [<img src="https://avatars.githubusercontent.com/u/34448643" alt="SignPath" width="48" /> Code signing provided by SignPath](https://signpath.org)
 
-### Quick Start
+Free code signing is provided by [SignPath.io](https://about.signpath.io), and the certificate is provided by [SignPath Foundation](https://signpath.org).
 
-1. **First Launch**: A user agreement will be displayed. Please read and accept it to continue.
-2. **Set Game Path**: Go to "Settings" page and select the game installation directory (auto-detection is recommended).
-3. **Login**: Log in with your MiHoYo/HoYoLab account on the "Account" page to use check-in features.
-4. **Launch Game**: Click "Launch Game" on the main page.
+## Contributors and Reviewers
 
-> â ï¸ **Important Notes**:
-> - Account switching requires **Administrator privileges**
-> - It's recommended to select the game path first, then run the program as Administrator
-> - Injection features require **Administrator privileges**
-> - Live video backgrounds may be unstable; static images are recommended
-
----
-
-## đŸ—ï¸ Tech Stack
-
-- **UI Framework**: WinUI 3 (Windows App SDK)
-- **Language**: C# (.NET 8.0)
-- **Architecture**: MVVM (CommunityToolkit.Mvvm)
-- **Database**: SQLite (local settings storage)
-- **Injection**: Native DLL injection
-- **Backend**: Windows Native APIs + HTTP APIs
-
----
-
-## đŸ¤ Contributing
-
-Issues and Pull Requests are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Report Issues
-- [Report Bug](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=bug_report.yml)
-- [Feature Request](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=feature_request.yml)
-
----
-
-## đŸ“„ License
-
-This project is licensed under the [MIT License](../LICENSE).
-
-Copyright Â© 2026 whitecode666
-
----
-
-## đŸŒŸ Support
-
-If you find this project helpful, please consider giving it a â­ on GitHub!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/WhitefuLaucher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/WhitefuLaucher&type=date&legend=top-left)
-
----
-
-## đŸ“ Contact
-
-- [GitHub Issues](https://github.com/whitecode666/WhitefuLaucher/issues)
-- [Telegram](https://github.com/whitecode666/WhitefuLaucher)
-
----
-
-*This software is an independently developed third-party tool and is not affiliated with miHoYo or its subsidiaries.*
-*Please support the official game.*
+<a href="https://github.com/whitecode666/WhitefuLaucher/graphs/contributors"><img src="https://contrib.rocks/image?repo=whitecode666/WhitefuLaucher" /></a>
