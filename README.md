@@ -50,12 +50,6 @@ Trước khi đặt câu hỏi, vui lòng kiểm tra bạn đã cập nhật phi
 * Vui lòng cài đặt **.NET 8.0** trở lên và runtime **WebView2** trước khi sử dụng
 * Dự án này chỉ để học tập và giao lưu, vui lòng ủng hộ bản game chính thức.
 
-## Nhà tài trợ
-
-### [<img src="https://avatars.githubusercontent.com/u/34448643" alt="SignPath" width="48" /> Ký mã nguồn miễn phí bởi SignPath](https://signpath.org)
-
-Ký mã nguồn miễn phí được cung cấp bởi [SignPath.io](https://about.signpath.io), chứng chỉ bởi [SignPath Foundation](https://signpath.org).
-
 ## Người đóng góp
 
 <a href="https://github.com/whitecode666/WhitefuLaucher/graphs/contributors"><img src="https://contrib.rocks/image?repo=whitecode666/WhitefuLaucher" /></a>
