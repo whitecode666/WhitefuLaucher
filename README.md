@@ -4,7 +4,6 @@
 </div>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-orange)
 ![Stars](https://img.shields.io/github/stars/whitecode666/WhitefuLaucher?style=flat&color=yellow)
 ![Downloads](https://img.shields.io/github/downloads/whitecode666/WhitefuLaucher/total?style=flat&color=blue)
 
